@@ -2,6 +2,7 @@ import * as esprima from 'esprima';
 import * as escodegen from 'escodegen';
 
 let thing = [];
+let varHash = [];
 let amElse = false;
 
 const parseTypes = {
